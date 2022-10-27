@@ -1,19 +1,31 @@
 {
-  "name"            : "svg-font-create",
-  "description"     : "Creates SVG font from separate images",
-  "keywords"        : [ "font", "svg" ],
-  "version"         : "0.0.5",
-  "repository"      : {
-                        "type": "git",
-                        "url" : "git@github.com:fontello/svg-font-create.git"
-                      },
-  "bin"             : { "svg-font-create": "svg-font-create.js" },
-  "dependencies"    : {
-                        "argparse"          : "~ 0.1.7",
-                        "fs-tools"          : "~ 0.2.6",
-                        "js-yaml"           : "~ 2.0.5",
-                        "lodash"            : "~ 1.2.1",
-                        "xmldom"            : "~ 0.1.5",
-                        "IDationTech/svgo"              : "3.0.0"
-                      }
+  "name": "@idationtech/svg-font-create",
+  "description": "Creates SVG font from separate images",
+  "keywords": [
+    "font",
+    "svg"
+  ],
+  "version": "0.0.52",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IDationTech/svg-font-create.git"
+  },
+  "bin": {
+    "svg-font-create": "svg-font-create.js"
+  },
+  "dependencies": {
+    "argparse": "~ 0.1.7",
+    "fs-tools": "~ 0.2.6",
+    "js-yaml": "~ 2.0.5",
+    "lodash": "~ 1.2.1",
+    "xmldom": "~ 0.1.5",
+    "@idationtech/svgo": "3.0.1"
+  },
+  "homepage": "https://github.com/IDationTech/svg-font-create",
+  "main": "svg-font-create.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
 }

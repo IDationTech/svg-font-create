@@ -19,7 +19,8 @@ Usage example:
 
 See Makefile in embedded fonts repos https://github.com/fontello/awesome-uni.font/blob/master/Makefile
 
-License
--------
-View the [LICENSE](https://github.com/fontello/svg-font-create/blob/master/LICENSE) file
-(MIT).
+## License and Copyright
+
+This software is released under the terms of the [MIT license](https://github.com/IDationTech/svg-font-create/blob/master/LICENSE).
+
+This project is a derived version of the main project : [https://github.com/fontello/svg-font-create](https://github.com/fontello/svg-font-create).
