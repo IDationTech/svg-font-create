@@ -8,7 +8,7 @@ var _         = require('lodash');
 var yaml      = require('js-yaml');
 var DOMParser = require('xmldom').DOMParser;
 var fstools   = require('fs-tools');
-var execFile  = require('child_process').execFile;
+var execFile  = require('child_process').exec;
 var ArgumentParser = require('argparse').ArgumentParser;
 
 
